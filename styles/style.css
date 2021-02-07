@@ -130,3 +130,43 @@ body{
     font-size: 12px;
     color: #969b9e;
 }
+
+#rightContent{
+    margin-left: 10px;    
+}
+
+#searchContainer{
+    width: 79.9vw;    
+    height: 98px;
+    display: flex;
+}
+#searchBox{
+    margin-top: 32px;
+    margin-left: 21px;
+    display: flex;
+    width:75vw;
+    height:34px;
+    background-color: #EAEFF5;
+    border-radius: 20px;   
+}
+.searchIcon{
+    font-size: 25px;
+    margin: 6px 15px 15px 15px;
+}
+.searchBoxText{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 9px 20px 20px 0px;
+}
+#filter{
+    margin-top: 32px;
+    height: 34px;
+    width: 34px;
+    margin-left: 21px;
+    background-color: #CF005F;
+    border-radius: 20px;
+}
+.filterIconOverride{
+    margin-top: 7px;
+    margin-left: 5px;
+    color:white;
+}
