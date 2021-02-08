@@ -178,11 +178,12 @@ body{
     font-size: 12px;
     letter-spacing: 1px;
     text-align: start;
-    padding: 10px 5px 25px 5px;
+    padding: 10px 5px 20px 5px;
 }
 #dashBoardTable tbody td{
     border-bottom: 1px solid #EAEFF5;
-    padding-bottom: 10px;   
+    padding-bottom: 15px;
+    padding-top: 15px;
 }
 .addBoxRect{
     color:#65C1E0;
@@ -223,4 +224,9 @@ body{
     vertical-align: top;
     padding: 2px;
     background-color: #EAEFF5;
+}
+.seetingsIcon{
+    color:#65C1E0;
+    font-size: 25px;
+    cursor: pointer;
 }
