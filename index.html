@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">    
     <title>Document</title>
     <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/popup.css">
 </head>
 <body>
     <div class="flexContainer">
@@ -128,14 +129,23 @@
                                     </td>
                                     <td>
                                         <span class="material-icons cellIcon sharedWithIcon">account_circle</span>
-                                        <span class="material-icons cellIcon sharedWithIcon">account_circle</span>
+                                        <span class="material-icons cellIcon sharedWithIcon">account_circle</span>                                        
                                         <span class="material-icons cellIcon sharedWithIcon userNumber">exposure_plus_2</span>
                                     </td>
                                     <td>
                                         <span class="cellText">June 29,2019</span>
                                     </td>
                                     <td>
-                                        <span class="material-icons cellIcon seetingsIcon">settings</span>
+                                        <span class="material-icons cellIcon seetingsIcon" id="settingsButton">settings</span>
+                                        <div id="myModal" class="modal">
+                                            <!-- Modal content -->
+                                            <div class="modal-content">
+                                              <span class="close">&times;</span>
+                                                <div class="modalTitle">
+                                                    <span class="modalTitleText">Dashboard Settings</span>
+                                                </div>
+                                            </div>                                          
+                                        </div> 
                                     </td>
                                 </tr>                                                             
                             </tbody>
@@ -144,7 +154,7 @@
                 </div>
             </div>
         </div>
-    </div>    
+    </div> 
 
 
 
